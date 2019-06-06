@@ -8,6 +8,5 @@ USER static
 WORKDIR /home/static
 
 COPY Gemfile /home/static/Gemfile
-COPY Gemfile.lock /home/static/Gemfile.lock
 
 RUN /usr/local/bin/bundle install
