@@ -8,7 +8,6 @@ DOCKER_ARGS=-v ${PWD}:/src -w /src -u `id -u`:`id -g` # This works on Linux
 DOCKER_SERVER_PORT_ARGS=-p 4000:4000
 DOCKER_SHELL_PORT_ARGS=-p 4004:4000
 
-ENV=--env-file .env
 RM=rm -rf
 
 image:
@@ -25,7 +24,7 @@ shell:
 server:
 	${RM} _site
 	${DOCKER} run \
-		--rm -it ${DOCKER_SERVER_PORT_ARGS} ${DOCKER_ARGS} ${ENV} ${IMAGE} \
+		--rm -it ${DOCKER_SERVER_PORT_ARGS} ${DOCKER_ARGS} ${IMAGE} \
 		jekyll serve -H 0.0.0.0 -wD
 
 .PHONY: \
