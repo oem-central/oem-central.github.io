@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: OEM Central
+url: "https://www.oem-central.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: The marketplace to connect product designers and developers with manufacturers
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: OEM Central
+  email: hello@oem-central.com
+  twitter: oem-central # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: OEM Central
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://www.oem-central.com
 
 # -----
 # Build
