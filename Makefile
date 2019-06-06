@@ -26,7 +26,7 @@ server:
 	${RM} _site
 	${DOCKER} run \
 		--rm -it ${DOCKER_SERVER_PORT_ARGS} ${DOCKER_ARGS} ${ENV} ${IMAGE} \
-		jekyll serve -H 127.0.0.1 -wD
+		jekyll serve -H 0.0.0.0 -wD
 
 .PHONY: \
 	image \
