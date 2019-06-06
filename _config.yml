@@ -12,7 +12,7 @@ disqus_shortname:
 logo: /siteicon.png
 description: The marketplace to connect product designers and developers with manufacturers
 author:
-  name: OEM Central
+  name: 'OEM Central (GmbH|UG|Ltd|Inc)?'
   email: hello@oem-central.com
   twitter: oem-central # twitter username without the @ symbol
 social:
