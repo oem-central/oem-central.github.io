@@ -5,9 +5,9 @@
   #  link: /blog/
   #- name: About
   #- link: /about/
-  - name: Contact
-    link: /contact/
-- links:
+  #- name: Contact
+  #  link: /contact/
+ - links:
   #- name: Login
   #  link: /
   #  new_window: true
