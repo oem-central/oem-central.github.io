@@ -1,8 +1,8 @@
 - links:
   #- name: Pricing
   #  link: /pricing/
-  - name: Blog
-    link: /blog/
+  #- name: Blog
+  #  link: /blog/
   #- name: About
   #- link: /about/
   - name: Contact
@@ -14,9 +14,9 @@
   #- name: Sign Up
   #  link: /
   #  new_window: true
-  - name: Docs
-    link: /
-    new_window: true
+  #- name: Docs
+  #  link: /
+  #  new_window: false
   #- name: Status
   #- link: /
   #- new_window: true
